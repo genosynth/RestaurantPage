@@ -1,0 +1,101 @@
+
+
+body {
+    width: 98vw;
+    height: 95vh;
+    background: url("images/stakehome.jpg");
+    background-image: url("images/stakehome.jpg");
+    
+    background-size: cover;
+    
+      
+}
+nav {
+    
+    margin-top: -2%;
+    height: 80px;
+    width: 98vw;
+    background-color: black;
+    opacity: 0.8;
+    
+}
+
+footer {
+
+    background-color: black;
+    opacity: 0.8;
+    
+}
+
+footer ul li {
+    font-size: 20px;
+}
+
+li:first-child {
+    color: rgb(235, 180, 97);
+
+  }
+
+ 
+  
+
+ul {
+    color:rgb(236, 224, 202) ;
+    display: flex;
+    width: 900px;
+    padding: 20px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    justify-content: space-around;
+    list-style: none;
+    font-size: 35px;
+    
+    
+    font-family: fantasy, sans-serif;
+}
+
+#content {
+
+
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family:  sans-serif;
+    opacity: 0.95;
+    width:40vw;
+    height:75vh;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.homeImg {
+    border-radius: 2px solid ;
+    border-radius:60%;
+    max-width: 70%;  
+    height: 70%;  
+    padding: 5%;
+}
+
+.active {
+    color: chocolate;
+}
+
+nav ul li:hover{
+    color: chocolate;
+}
+
+.title {
+    color: rgb(235, 180, 97) ;
+    font-family: fantasy, sans-serif;
+    font-size: 60px;
+
+}
