@@ -5,7 +5,7 @@ body {
     height: 95vh;
     background: url("images/stakehome.jpg");
     background-image: url("images/stakehome.jpg");
-    
+    background-attachment: fixed;
     background-size: cover;
     
       
@@ -42,7 +42,7 @@ li:first-child {
 ul {
     color:rgb(236, 224, 202) ;
     display: flex;
-    width: 900px;
+    width: 48vw;
     padding: 20px;
     
     margin-left: auto;
@@ -67,7 +67,7 @@ ul {
     font-family:  sans-serif;
     opacity: 0.95;
     width:40vw;
-    height:75vh;
+    min-height:65vh;
     background-color: black;
     margin-left: auto;
     margin-right: auto;
@@ -97,5 +97,41 @@ nav ul li:hover{
     color: rgb(235, 180, 97) ;
     font-family: fantasy, sans-serif;
     font-size: 60px;
+
+}
+
+.menu {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+    animation: fadeIn 1.5s;
+    
+
+
+
+
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    
+    padding: 2rem;
+    cursor: pointer;
+    background-color: var(--background-light);
+    transition: background-color 0.3s;
+}
+
+p {
+    font-size: 18px;
+}
+
+.menu-images{
+    height:300px;
+    width: 300px;
 
 }
